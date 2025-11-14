@@ -1,0 +1,802 @@
+﻿.sample_code{
+  list-style-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.312 12.644c-.972-1.189-3.646-4.212-4.597-5.284l-1.784 1.018 4.657 5.35c.623.692.459 1.704-.376 2.239-.773.497-5.341 3.376-6.386 4.035-.074-.721-.358-1.391-.826-1.948-.469-.557-6.115-7.376-7.523-9.178-.469-.601-.575-1.246-.295-1.817.268-.549.842-.918 1.43-.918.919 0 1.408.655 1.549 1.215.16.641-.035 1.231-.623 1.685l1.329 1.624 7.796-4.446c1.422-1.051 1.822-2.991.93-4.513-.618-1.053-1.759-1.706-2.978-1.706-1.188 0-.793-.016-9.565 4.475-1.234.591-2.05 1.787-2.05 3.202 0 .87.308 1.756.889 2.487 1.427 1.794 7.561 9.185 7.616 9.257.371.493.427 1.119.15 1.673-.277.555-.812.886-1.429.886-.919 0-1.408-.655-1.549-1.216-.156-.629.012-1.208.604-1.654l-1.277-1.545c-.822.665-1.277 1.496-1.377 2.442-.232 2.205 1.525 3.993 3.613 3.993.596 0 1.311-.177 1.841-.51l9.427-5.946c.957-.664 1.492-1.781 1.492-2.897 0-.744-.24-1.454-.688-2.003zm-8.292-10.492c.188-.087.398-.134.609-.134.532 0 .997.281 1.243.752.312.596.226 1.469-.548 1.912l-5.097 2.888c-.051-1.089-.579-2.081-1.455-2.732l5.248-2.686zm-2.374 12.265l.991-2.691.813 1.017-.445 1.433 1.782.238.812 1.015-3.399-.321-.554-.691zm5.481-3.076l.552.691-.99 2.691-.812-1.015.44-1.438-1.778-.232-.812-1.016 3.4.319z"/></svg>');
+  font-weight:bold;
+  margin-left:40px;
+}
+
+li.devicon {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/devicon/devicon-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.windows {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.bash {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-plain.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.chrome {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.firefox {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firefox/firefox-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.safari {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/safari/safari-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.slack {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.twitter {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+
+li.git {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.github {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.gitlab {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.bitbucket {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bitbucket/bitbucket-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.html5 {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.eslint {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.markdown {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.css3 {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.fontawesome {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/fontawesome.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.google_fonts {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/google-fonts-2021-2.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.sass {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.mozilla {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/mozilla.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.mailchimp {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/mailchimp-freddie-icon-wink.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.pinterest {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/pinterest-3.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.dropbox {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/dropbox-1.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.bootstrap {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.tailwindcss {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.daisyui {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/daisyui.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.xcode {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.apple {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.swift {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.csharp {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.wordpress {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.vscode {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.vuejs {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.handlebars {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.unity {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-plain.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.ubuntu {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.amazonlinux {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.java {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.eclipse {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.spring {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.thymeleaf {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/thymeleaf.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.tomcat {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.maven {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.ruby {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.rails {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.python {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.jupyter {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.numpy {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.pandas {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.matplotlib {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.tensorflow {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.scikitlearn {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.seaborn {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/seaborn.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.scipy {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/scipy.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.pillow {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/pillow.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.statsmodels {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/statsmodels-logo-v2.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.pytorch {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.openai {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/openai.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.langchain {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/langchain.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.llamaindex {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/llamaindex.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.huggingface {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/huggingface.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.gradio {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/gradio.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.google-colab {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/google-colab.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.flask {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.php {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.laravel {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.javascript {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.json {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.nodejs {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.jquery {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.angularjs {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.mysql {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.dbeaver {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.postgresql {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.sqlite {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.firebase {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.android {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.android-studio {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.kotlin {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.gradle {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.aws {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/aws.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.amazonwebservices {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.aws_console {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/aws_console.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.aws_ec2 {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/aws_ec2.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.aws_s3 {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/aws_s3.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.aws_cloud9 {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/aws_cloud9.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.tech_academy {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/tech_academy.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.docker {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.azure {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.google_cloud {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.google {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.google-drive {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/google-drive-icon.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.xml {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.go {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.powershell {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.homebrew {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/homebrew/homebrew-original-wordmark.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.edublocks {
+  list-style:none;
+  background:url('https://techacademy.s3.ap-northeast-1.amazonaws.com/bootcamp/common/aws-icons/edublocks.png') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+li.clang {
+  list-style:none;
+  background:url('https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg') no-repeat 0 0;
+  background-size:auto 24px;
+  padding-left: 30px;
+  margin-left: 10px;
+}
+
+.reg-pattern{
+list-style-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 1v16.981h-13l-7 5.02v-5.02h-4v-16.981h24zm-2 15v-12.999h-20v12.999h4v3.105l4.357-3.105h11.643zm-4-9.715l-6.622 7.715-4.378-3.852 1.319-1.489 2.879 2.519 5.327-6.178 1.475 1.285z"/></svg>');
+background-size:24px;
+margin-left:40px;
+}
+
+.execute-icon{
+list-style-image: url('data:image/svg+xml;utf8,<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24"><path d="m21 4c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-13.678 6.365c-.207-.146-.318-.378-.318-.614 0-.603.684-.962 1.182-.612l3.505 2.235c.199.141.318.369.318.613 0 .245-.119.473-.318.614l-3.511 2.257c-.5.353-1.182-.012-1.182-.613 0-.235.111-.467.318-.613l2.641-1.645zm9.678 3.873c0 .414-.336.75-.75.75h-3.5c-.413 0-.75-.336-.75-.75s.337-.75.75-.75h3.5c.414 0 .75.336.75.75z" fill-rule="nonzero"/></svg>');
+background-size:24px;
+margin-left:40px;
+}
